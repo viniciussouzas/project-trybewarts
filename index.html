@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
@@ -7,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <header class="header">
     <img src="images/trybewarts-header-logo.svg" alt="trybewarts logo" class="trybewarts-header-logo">
@@ -18,9 +20,38 @@
     </form>
   </header>
   <main>
-    <form action="" method="get" id="evaluation-form"></form>
+    <form action="" method="get" id="evaluation-form">
+      <div class="input-container">
+        <input type="text" name="nome" id="input-name" placeholder="Nome" required>
+        <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome" required>
+      </div>
+      <div class="input-container">
+        <input type="email" name="email" id="input-email" placeholder="Email" required>
+        <label for="house">Casa:</label>
+        <select name="selected" id="house">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </div>
+      <label for="" id="label-family">Qual sua família?</label>
+      <div>
+        <input type="radio" name="family" value="Frontend" id="frontEnd">
+        <label for="frontEnd">FrontEnd</label>
+      </div>
+      <div>
+        <input type="radio" name="family" value="Backend" id="backEnd">
+        <label for="backEnd">BackEnd</label>
+      </div>
+      <div>
+        <input type="radio" name="family" value="FullStack" id="fullStack">
+        <label for="fullStack">FullStack</label>
+      </div>
+    </form>
     <img src="images/trybewarts-colored.svg" alt="trybewarts-colored" id="trybewarts-forms-logo">
   </main>
   <script src="script.js"></script>
 </body>
+
 </html>
