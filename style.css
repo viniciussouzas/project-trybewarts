@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -9,9 +10,25 @@
   align-items: center;
   height: 90px;
 }
+
 .trybewarts-header-logo {
   width: 40px;
 }
+
 .trybewarts-login {
   display: flex;
+}
+
+main {
+  display: flex;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  width: 675px;
+}
+
+main img {
+  height: 500px;
 }
