@@ -3,12 +3,21 @@
   padding: 0;
 }
 
+body {
+  font-family: 'IM Fell French Canon SC', serif;
+  height: 100%;
+}
+
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
   height: 90px;
+}
+
+main img {
+  height: 500px;
 }
 
 .header img {
@@ -26,17 +35,13 @@
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 main form {
   display: flex;
   flex-direction: column;
   width: 675px;
-}
-
-main img {
-  height: 500px;
 }
 
 .input-container {
@@ -46,8 +51,12 @@ main img {
 footer {
   color: white;
   background-color: rgb(161, 159, 159);
-  height: 80px;
+  width: 100%;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

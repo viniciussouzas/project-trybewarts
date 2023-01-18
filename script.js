@@ -4,6 +4,7 @@ const password = document.querySelector('#password');
 const email = document.querySelector('#email');
 const submitBtn = document.querySelector('#submit-btn');
 const checkAgreement = document.querySelector('#agreement');
+const desc = document.querySelector('#textarea');
 
 btn.addEventListener('click', () => {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
@@ -18,5 +19,14 @@ checkAgreement.addEventListener('click', () => {
     submitBtn.disabled = true;
   } else {
     submitBtn.disabled = false;
+  }
+});
+
+desc.addEventListener('keypress', (e) => {
+  const maxChars = 500;
+  const inputLength = desc.value.length;
+  console.log(maxChars);
+  if (inputLength >= maxChars) {
+    e.preventDefault();
   }
 });
