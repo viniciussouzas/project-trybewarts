@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: IM Fell French Canon SC, serif;
   height: 100%;
 }
 
@@ -42,6 +42,7 @@ main form {
   display: flex;
   flex-direction: column;
   width: 675px;
+  /* visibility: hidden; */
 }
 
 .input-container {
@@ -62,15 +63,19 @@ footer {
 }
 
 .textarea-container {
-  position: relative
+  position: relative;
+  max-width: 450px;
+  max-height: 140px;
 }
 
 .textarea-container > span {
   position: absolute;
-  bottom: 12px;
-  right: 12px;
+  bottom: 6px;
+  right: 10px;
 }
 
 .textarea-container > textarea {
   width: 100%;
+  max-width: 450px;
+  max-height: 140px;
 }
