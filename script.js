@@ -22,11 +22,11 @@ checkAgreement.addEventListener('click', () => {
   }
 });
 
-desc.addEventListener('keypress', (e) => {
-  const maxChars = 500;
-  const inputLength = desc.value.length;
-  console.log(maxChars);
-  if (inputLength >= maxChars) {
-    e.preventDefault();
-  }
+const maxValue = 500;
+const counter = document.querySelector('#counter');
+
+desc.addEventListener('input', (e) => {
+  const target = e.target.value;
+  const inputLength = target.length;
+  counter.innerHTML = maxValue - inputLength;
 });

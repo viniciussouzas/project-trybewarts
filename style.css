@@ -60,3 +60,17 @@ footer {
   bottom: 0;
   left: 0;
 }
+
+.textarea-container {
+  position: relative
+}
+
+.textarea-container > span {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+
+.textarea-container > textarea {
+  width: 100%;
+}
