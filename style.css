@@ -33,25 +33,15 @@ main form {
   display: flex;
   flex-direction: column;
   width: 675px;
-  /* margin: 100px 50px 50px 200px; */
-  /* padding: 100px 50px 50px 200px; */
 }
 
 main img {
   height: 500px;
-  padding: 80px 200px 50px 50px;
 }
 
 .input-container {
   display: flex;
 }
-
-/* textarea {
-  /* min-width: 12%;
-  min-height: 11%;
-  max-width: 300px;
-  max-height: 115px; */
-/* } */
 
 footer {
   color: white;
