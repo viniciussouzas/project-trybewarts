@@ -13,15 +13,11 @@ body {
   background-color: rgb(50, 167, 145);
   justify-content: space-between;
   align-items: center;
-  height: 90px;
-}
-
-main img {
-  height: 500px;
+  height: 80px;
 }
 
 .header img {
-  padding-left: 40px;
+  padding: 0% 7%;
 }
 
 .trybewarts-header-logo {
@@ -29,36 +25,64 @@ main img {
 }
 
 .trybewarts-login {
-  display: flex;
-  padding-right: 30px;
+  margin: 0% 7%;
+}
+
+.headerInputs {
+  padding: 3px 7px;
+  margin: 2px 9px;
+  border: 1px solid black;
+  border-radius: 7px;
 }
 
 main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+main img {
+  height: 500px;
+  width: 350px;
 }
 
 main form {
   display: flex;
   flex-direction: column;
   width: 675px;
+  margin-left: 5%;
+}
+
+main form div label {
+  margin-top: 6.5px;
+  padding: 2px;
+}
+
+main form div input {
+  margin: 2px 4px;
+  padding: 4px 0px;
 }
 
 .input-container {
   display: flex;
+  margin-top: 7px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 0px;
 }
 
 footer {
   color: white;
   background-color: rgb(161, 159, 159);
-  width: 100%;
-  height: 60px;
   display: flex;
+  height: 68px;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 .textarea-container {
