@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'IM Fell French Canon SC', serif;
+  font-family: IM Fell French Canon SC, serif;
   height: 100%;
 }
 
@@ -14,6 +14,11 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 80px;
+}
+
+main img {
+  height: 500px;
+  width: 350px;
 }
 
 .header img {
@@ -26,6 +31,8 @@ body {
 
 .trybewarts-login {
   margin: 0% 7%;
+  display: flex;
+  flex-flow: row wrap;
 }
 
 .headerInputs {
@@ -42,11 +49,6 @@ main {
   margin-bottom: 1%;
 }
 
-main img {
-  height: 500px;
-  width: 350px;
-}
-
 main form {
   display: flex;
   flex-direction: column;
@@ -56,12 +58,12 @@ main form {
 
 main form div label {
   margin-top: 6.5px;
-  padding: 2px;
+  padding: 1.3px 0;
 }
 
 main form div input {
   margin: 2px 4px;
-  padding: 4px 0px;
+  padding: 6px 0;
 }
 
 .input-container {
@@ -73,7 +75,7 @@ main form div input {
   display: flex;
   flex-direction: column;
   margin-top: 70px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 footer {
